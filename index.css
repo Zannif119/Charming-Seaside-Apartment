@@ -467,7 +467,7 @@ p:hover {
   content: "";
   position: absolute;
   inset: 0; /* fills the container */
-  background-image: url("assets/Images/Sunset.jpg");
+  background-image: url("assets/images/Sunset.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -545,3 +545,4 @@ textarea{
   box-sizing: border-box;
   border: 3px solid #00334a;
 }
+

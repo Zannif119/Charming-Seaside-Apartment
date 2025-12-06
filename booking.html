@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/BlackLogoIcon.png">
+    <title>Charming Seaside Apartment</title>
+    <button class="bookingbutton" onclick="location.href='index.html'"> Home </button>
+</head>
+<body>
+        <div class="imageflex">
+            <img class="logo" src="assets/images/LogoCroppedChanged-removebg-preview.png" alt="">
+            <h1 class="title">Charming Seaside Apartment</h1>
+        </div>
+    <hr class="welcomehr">
+    <div class="book">
+        <h1>Request a booking!</h1>
+        <form class="bookform" action="https://formspree.io/f/mandwznk" method="post">
+            <input type="text" name="Name" placeholder="Name" size="20" style="border-radius: 5px;">
+            <input type="text" name="Country" placeholder="Country" required style="border-radius: 5px;">
+            <input type="text" name="Phone" placeholder="Phone Number" size="20" style="border-radius: 5px;">
+            <input type="number" id="guests" name="guests" placeholder="Number of guests" style="border-radius: 5px; width: 150px;" min="1" max="4">
+            <br>
+            <input type="text" name="E-mail" placeholder="E-mail" size="50" style="border-radius: 5px; width: 500px;">
+            <br>
+            <input type="date" name="Check in" placeholder="Check in" style="margin-right: 10px; border-radius: 5px;">
+            <input type="date" name="Check out" placeholder="Check out" style="margin-left: 10px; border-radius: 5px;"> 
+            <br>
+            <textarea name="message" id="message" style="height: 200px; width: 700px; border-radius: 5px;" placeholder="Any additional information you would like us to know?"></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <hr>
+    <footer>
+        <img class="logoFoot" src="assets/images/ChatGPT_Image_Oct_18__2025__05_14_21_PM-removebg-preview.png" alt="">
+        <div class="contactFoot" >
+            <h2>Contact us!</h2>
+            <p>Email: charmingseasideapartment@gmail.com</p>
+            <p>Whatsapp: +356 79627235</p>    
+        </div>
+</body>
+</html>
+</body>
+</html>

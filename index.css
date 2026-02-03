@@ -60,13 +60,10 @@ img {
     z-index: 999;
   }
 
-  /* ----- GENERAL IMAGES ----- */
   img {
     width: 100%;
     height: auto;
   }
-
-  /* ----- INFO SECTION (img + text) ----- */
   .info {
     flex-direction: column;
     text-align: center;
@@ -263,9 +260,6 @@ p:hover {
   color: #00334a;
 }
 
-
-
-
 .info {
   display: flex;
   align-items: center;
@@ -323,8 +317,6 @@ p:hover {
     width: 100%;
   }
 }
-
-
 
 .images2 {
   display: flex;
